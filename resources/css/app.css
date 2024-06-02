@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Style de l'icône de recherche */
+.search-icon {
+    fill: white; /* Couleur de l'icône */
+    transition: fill 0.3s; /* Transition de couleur au survol */
+}
+
+/* Style de survol de l'icône */
+.search-icon:hover {
+    fill: #0074d9; /* Couleur de survol */
+}
